@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>БФ «Русь»</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="reset.css">
+<link rel="icon" href="img/logo1(1).png">
+</head>
+<body>  
+<header class="header">
+  <div class="header-image">
+    <img src="img/5.gif" alt="Background Image">
+  </div>
+  <div class="header-content">
+    <nav>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <ul id="nav-menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="О-Фонде.html">О фонде</a></li>
+        <li><a href="Проекты.html">Проекты</a></li>
+        <li><a href="Партнеры.html" id="main">Партнеры</a></li>
+        <li><a class="contact">Контакты</a>
+            <ul class="submenu">
+              <li><img src="img/icons8-ringer-volume-50.png" alt=""><a href="tel:+79778804001">+7 977 880 40 01</a></li>
+              <li><img src="img/icons8-почта-24.png" alt=""><a href="mailto:blago@fundrus.ru">blago@fundrus.ru</a></li>
+              <li><img src="img/icons8-телеграмма-50.png" alt=""><a href="https://t.me/fundrus" target="blank">Телеграм канал</a></li>
+            </ul>
+          </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById('nav-menu');
+    menu.classList.toggle('active');
+  }
+</script>
+
+
+<div class="one_background">
+  <div class="container">
+    <div class="logo_wrapper">
+      <img src="img/logo1(1).png" alt="" class="logo__img">
+      <div class="logo__name">Благотворительный фонд содействия развитию и поддержки человека «Русь»</div>
+    </div>
+    <div class="wrapper__name partner_name">Наши партнеры</div>
+    <div class="wrapper__partners">
+      <a class="partner" href="https://msupport.dszn.ru/" target="blank">
+        <img src="img/logo.png" alt="">
+      </a>
+      <a class="partner" href="https://preo.ru/" target="blank">
+        <img src="img/Снимок экрана 2024-10-04 175653.png" alt="">
+      </a>
+      <a class="partner" href="https://rgust.ru/admissions/" target="blank">
+        <img src="img/10638.upto100x100.webp" alt="">
+      </a>
+      <a class="partner" href="https://www.biors.ru/" target="blank">
+        <img src="img/logo.svg" alt="">
+      </a>
+      <a class="partner" href="https://nationalfitness.ru/" target="blank">
+        <img src="img/nationalfitness-logo.png" alt="">
+      </a>
+      <a class="partner" href="https://sports-innovations.ru/" target="blank">
+        <img src="img/photo.svg" alt="">
+      </a>
+      <a class="partner" href="https://спортивнаяиндустрия.рф/" target="blank">
+        <img src="img/logo (1).png" alt="">
+      </a>
+      <a class="partner" href="https://www.stelmas.ru/about/" target="blank">
+        <img src="img/logo11.png" alt="">
+      </a>
+      <a class="partner" href="https://ironking.ru/" target="blank">
+        <img src="img/anvz5yvu2qbkftgj11fudrldhj4giuuz.png" alt="">
+      </a>
+    </div>
+    <!-- <a class="wrapper__button"><img src="img/telPNG.png" alt="">НОВОСТИ БФ «РУСЬ»</a> -->
+
+  </div>
+  <span style="height: 80px;display: block;background: linear-gradient(180deg, #fff0 0, #ffffff94 90%);">&nbsp; </span>
+
+</div>
+<footer class="footer">
+  <div class="container">
+    <p>© 2024 Благотворительный фонд «РУСЬ». Все права защищены.</p>
+  </div>
+</footer>
+</body>
+</html>
