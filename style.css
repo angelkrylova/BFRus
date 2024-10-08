@@ -58,7 +58,7 @@ html, body {
     top: 10px;
     right: 0;
     width: 100%;
-    max-width: 654px;
+    max-width: 795px;
     height: 60px;
 }
 
@@ -495,6 +495,7 @@ nav ul li a.active::after {
 	width: 100%;
 	height: 300px;
     max-width: 300px;
+	object-position: 80% 25%;
     -o-object-fit: cover;
     object-fit: cover;
     display: block;
